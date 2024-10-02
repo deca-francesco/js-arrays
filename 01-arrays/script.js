@@ -8,10 +8,14 @@ const teachers = [
   'Luca'
 ]; // NON MODIFICARE QUESTA VARIABILE
 
+// Creo la variabile exercise per leggere meglio i risultati in console
+let exercise;
+
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 const fourthTeacher = teachers[3];
-console.log(fourthTeacher);
+exercise = "Esercizio 1 :";
+console.log(exercise, fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
