@@ -18,9 +18,14 @@ exercise = "Esercizio 1 :";
 console.log(exercise, fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
+exercise = "Esercizio 2 :";
+teacher_Patrick = teachers.splice(4, 1, "Patrick");
+console.log(exercise, teachers);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+exercise = "Esercizio 3 :";
+const lastTeacher = teachers.pop();
+console.log(exercise, teachers);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
