@@ -30,3 +30,7 @@ for (let i = 0; i < teachers.length; i++) {
 console.log(exercise, longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
+exercise = "Esercizio Bonus 3 :";
+const Ed_index = teachers.indexOf("Ed");
+teachers.splice(Ed_index, 1);
+console.log(exercise, "Indice dell'insegnante Ed: ", Ed_index, teachers);
