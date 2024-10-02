@@ -10,25 +10,28 @@ const teachers = [
 
 // Creo la variabile exercise per leggere meglio i risultati in console
 let exercise;
+console.log(teachers);
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-const fourthTeacher = teachers[3];
 exercise = "Esercizio 1 :";
+const fourthTeacher = teachers[3];
 console.log(exercise, fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 exercise = "Esercizio 2 :";
 teacher_Patrick = teachers.splice(4, 1, "Patrick");
-console.log(exercise, teachers);
+console.log(exercise,teacher_Patrick, teachers);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 exercise = "Esercizio 3 :";
 const lastTeacher = teachers.pop();
-console.log(exercise, teachers);
+console.log(exercise, lastTeacher);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = null;
+exercise = "Esercizio 4 :";
+const firstTeacher = teachers.shift();
+console.log(exercise, firstTeacher);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
