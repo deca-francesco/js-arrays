@@ -62,7 +62,9 @@ console.log(exercise, lewisIndex);
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+exercise = "Esercizio 9 :";
+const teachersString = teachers.toString();
+console.log(exercise, teachersString);
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
