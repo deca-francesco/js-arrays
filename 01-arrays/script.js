@@ -56,7 +56,9 @@ else {
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+exercise = "Esercizio 8 :";
+const lewisIndex = teachers.indexOf("Lewis");
+console.log(exercise, lewisIndex);
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
